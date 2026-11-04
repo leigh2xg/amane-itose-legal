@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | Amane Itose Tools</title>
+<style>
+  body { font: 16px/1.8 system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; color: #1d2430; background: #fff; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #dde2ea; padding-bottom: 4px; }
+  a { color: #2f5fd0; } code { background: #f1f3f7; padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { body { background: #14171c; color: #e6e9ef; } h2 { border-color: #323947; } a { color: #8fb0ff; } code { background: #232834; } }
+</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p>最終更新日：2026年11月4日</p>
+
+<h2>1. このアプリについて</h2>
+<p>「Amane Itose Tools」は、YouTubeチャンネル「糸瀬あまね / Amane Itose」（<a href="https://www.youtube.com/@AmaneItose">https://www.youtube.com/@AmaneItose</a>）の運営者が、自分のチャンネルを管理するために使う個人用ツールです。一般には配布しておらず、利用者は運営者本人だけです。次の2つの機能があります。</p>
+<ul>
+  <li>完成した動画を、運営者のチャンネルへ非公開でアップロードする。</li>
+  <li>運営者のチャンネルに届いたコメントを取得し、返信の下書きを作る。返信は、運営者本人が画面で承認操作をしたときだけ、1件ずつ投稿する。</li>
+</ul>
+
+<h2>2. 取得する情報</h2>
+<p>運営者がGoogleアカウントでログインして許可した範囲で、YouTube Data API v3 を通じて次の情報を取得します。</p>
+<ul>
+  <li>運営者のYouTubeチャンネルの情報（チャンネルID、チャンネル名）</li>
+  <li>運営者のチャンネルの動画の情報（動画ID、タイトル、説明）</li>
+  <li>運営者のチャンネルの動画に付いたコメントと返信（本文、投稿者の表示名とチャンネルID、投稿日時）</li>
+  <li>Googleのログイン情報（OAuthのアクセストークンとリフレッシュトークン）</li>
+</ul>
+<p>利用する権限（スコープ）は次の2つです。</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/youtube.upload</code>：動画の非公開アップロード、サムネイルと字幕の設定</li>
+  <li><code>https://www.googleapis.com/auth/youtube.force-ssl</code>：コメントの取得と、運営者が承認した返信の投稿</li>
+</ul>
+
+<h2>3. 利用目的</h2>
+<p>取得した情報は、上の2つの機能を運営者本人が使うためだけに利用します。広告、販売、マーケティング、利用者の分析には使いません。</p>
+
+<h2>4. 保管場所と保管期間</h2>
+<p>取得した情報とログイン情報は、運営者本人のパソコンの中だけに保存します。運営者以外が管理するサーバーには保存しません。運営者がデータを削除するか、下の方法で許可を取り消すまで保管します。</p>
+
+<h2>5. 第三者への提供</h2>
+<p>取得した情報を、販売したり、広告目的で提供したり、他のアプリへ転送したりしません。ただし、返信の下書きを作るときは、対象のコメントの本文、動画のタイトルと説明などを、次のいずれかのAIに送ります。送信先での取り扱いは、それぞれのプライバシーポリシーに従います。</p>
+<ul>
+  <li>運営者が契約しているAIサービス（Anthropic社のClaude）</li>
+  <li>運営者のパソコン上で動くAI（外部へは送信しません）</li>
+</ul>
+<p>AIが作るのは返信の下書きだけです。AIが自動で返信を投稿することはありません。</p>
+
+<h2>6. Googleのユーザーデータに関するポリシーへの準拠</h2>
+<p>Google API から受け取った情報の使用と、他のアプリへの転送は、限定的な使用（Limited Use）の要件を含む、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>に準拠します。</p>
+
+<h2>7. 許可の取り消しとデータの削除</h2>
+<ul>
+  <li>Googleアカウントの<a href="https://myaccount.google.com/permissions">サードパーティのアクセス権の管理</a>から、このアプリの許可をいつでも取り消せます。</li>
+  <li>保存したデータは、運営者のパソコン内のファイルを削除することで消せます。</li>
+</ul>
+
+<h2>8. 改定</h2>
+<p>内容を変更するときは、このページを更新し、最終更新日を書き換えます。</p>
+
+<h2>9. 連絡先</h2>
+<p>運営者：糸瀬あまね / Amane Itose チャンネルの運営者<br>
+連絡先メールアドレス：<a href="mailto:amaneitose@outlook.com">amaneitose@outlook.com</a></p>
+</body>
+</html>
